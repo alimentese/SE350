@@ -24,4 +24,12 @@ public class Mainmenu : MonoBehaviour{
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void KnightSelected(string scene) {
+        SceneManager.LoadScene(scene);
+    }
+
+    public void stageOne(string scene) {
+        SceneManager.LoadScene(scene);
+    }
 }
