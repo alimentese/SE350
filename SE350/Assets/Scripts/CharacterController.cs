@@ -97,7 +97,7 @@ public class CharacterController : MonoBehaviour
         }
         if (collision.gameObject.tag == "bossTeleport")
         {
-            transform.position = bossTeleport.position;
+            SceneManager.LoadScene("GameOver");
         }
         if (collision.gameObject.CompareTag("coin"))
         {

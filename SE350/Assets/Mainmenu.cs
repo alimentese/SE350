@@ -32,4 +32,11 @@ public class Mainmenu : MonoBehaviour{
     public void stageOne(string scene) {
         SceneManager.LoadScene(scene);
     }
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene("Stage1");
+    }
+    
+    
 }
